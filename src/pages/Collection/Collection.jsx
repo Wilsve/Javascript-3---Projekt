@@ -29,7 +29,7 @@ const Collection = () => {
     return (
       <div className={styles.container}>
         <h1>My Collection</h1>
-        <p className={styles.subtitle}>{getCountText()}</p>
+        <p className={styles.p-text}>{getCountText()}</p>
         
         <div className={styles.emptyState}>
           <h2>Your collection is empty</h2>
