@@ -1,0 +1,54 @@
+
+.container {
+    padding: 20px;
+  }
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .allRegions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .regionCard {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .regionName {
+    color:#4f7c82;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  .top3List {
+    list-style: none;
+    padding: 0;
+  }
+  .playerItem {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  .playerRank {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .playerName {
+    flex: 1;
+  }
+  .playerScore {
+    font-weight: bold;
+  }
+  .noScores {
+    text-align: center;
+    color: #999;
+  }

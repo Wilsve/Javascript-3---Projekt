@@ -1,0 +1,95 @@
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  .flag {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+  .optionButton {
+    width: 50%;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid #F8F9FA;
+    background-color: #F8F9FA;
+    color: #4f7c82;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: inherit;
+    font-family: inherit;
+    align-self: center;
+  }
+  .optionButton:hover {
+    background: #4f7c82;
+    color: #fff;
+  }
+  .optionButton:active {
+    transform: scale(0.97);
+  }
+  .resultButton,
+  .playAgainButton {
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .resultButton:hover,
+  .playAgainButton:hover {
+    background: #218838;
+  }
+  .correct {
+    background: #28a745 !important;
+    color: white !important ;
+    border-color: #28a745 !important ;
+  }
+  .incorrect {
+    background: #dc3545 !important;
+    color: white !important ;
+    border-color: #dc3545 !important ;
+  }  
+  .leaderboardLink {
+    padding: 0.8rem 1.5rem;
+    border: 2px solid #F8F9FA;
+    background-color: #F8F9FA;
+    color: #4f7c82;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: inherit;
+    font-family: inherit;
+    align-self: center;
+    margin-left: 10px;
+  }
+    .leaderboardLink:hover {
+        background: #4f7c82;
+        color: #fff;
+    }

@@ -1,0 +1,150 @@
+.container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    justify-content: center;
+  }
+  .buttonRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 2rem;
+  }
+  .backButton {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  .backButton:hover {
+    background-color: #5a6268;
+    color: white;
+  }
+  .countryLayout {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-start;
+    max-width: 800px;
+    margin-bottom: 2rem;
+  }
+  .flag {
+    width: 100%;
+    max-width: 590px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    flex-shrink: 0;
+  }
+  .countryInfo {
+    flex: 1;
+  }
+  .countryInfo h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  .countryInfo p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  .infoList {
+    display: grid;
+    gap: 1rem;
+  }
+   .info {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #555;
+  } 
+  .infoIcon {
+    width: 20px;
+    height: 20px;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    margin-right: 0.75rem;
+  }
+  .populationIcon { 
+    background-color: #007bff; 
+  }
+  .capitalIcon { 
+    background-color: #f5576c; 
+  }
+  .currencyIcon { 
+    background-color: #ffc107; 
+  }
+  .locationIcon { 
+    background-color: #28a745; 
+  }
+  .info strong {
+    color: #495057;
+    margin-right: 0.5rem;
+  }
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 0.5rem;
+  }
+  .link:hover {
+    text-decoration: underline;
+  }
+  .saveButton {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: normal;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  .saveButton:hover {
+    background-color: #f8f9fa;
+    color: black;
+  }
+  .saveButton:disabled {
+    cursor: not-allowed;
+  }
+  .savedButton {
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+  }
+  .savedButton:hover {
+    background-color: #218838;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .countryLayout {
+      flex-direction: column;
+      text-align: center;
+    }
+    .flag {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
